@@ -1,0 +1,28 @@
+body {
+    position: relative;
+    background-color: var(--black);
+}
+a{
+    text-decoration: none;
+}
+.main::after,
+.main::before {
+    content: '';
+    display: block;
+    min-width: 100%;
+    min-height: 1615px;
+    left: 0;
+    background-image: url("../img/main__first-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    position: absolute;
+}
+.main::before {
+    top: 0;
+}
+.main::after {
+    bottom: 0;
+    transform: rotate(180deg);
+}

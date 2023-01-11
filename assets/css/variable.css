@@ -1,0 +1,17 @@
+:root{
+    --black:#000000;
+    --white:#FFFFFF;
+    --yellow:#FFE35A;
+    --grey:#868686;
+    --color-date:#5F5F5F;
+    --bg-case:#434343;
+    --blue:#6285FC;
+    --border-case:#5975E2;
+    --bg-footer:#2E2E2E;
+    --color-line:#D9D9D9;
+    --gradient-blue:linear-gradient(180deg, #2B2B68 0%, #6285FC 100%);
+    --gradient-purple:linear-gradient(180deg, #7B87C0 0%, #31317A 100%);
+
+    --montserrat: 'Montserrat', sans-serif;
+    --russo-one: 'Russo One', sans-serif;
+}
