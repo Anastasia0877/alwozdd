@@ -84,12 +84,32 @@ $('.menu-item').on('click', function(){
     appendArrows:".article-slider__arrow"
     });
   });
-  // youtube-slider
+  
   $(document).ready(function(){
     $('.youtube-slider').slick({
       dots:false,
       arrows:true,
-    appendArrows:".youtube-slider__arrow"
+      slidesToShow:3,
+      slidesToScroll:3,
+    appendArrows:".youtube-slider__arrow",
+    responsive: [
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll:2
+        }
+        
+      },
+      {
+        breakpoint: 725,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll:1
+        }
+        
+      }
+    ]
     });
   });
 

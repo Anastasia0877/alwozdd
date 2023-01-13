@@ -47,27 +47,27 @@ font-weight: 700;
 font-size: 24px;
 line-height: 29px;
 letter-spacing: -0.015em;
-color: #5F5F5F;
+color: var(--color-date);
 margin-bottom: 26px;
 }
 .cryptoindustry-slider__title {
     font-family: var(--montserrat);
 font-style: normal;
 font-weight: 700;
-font-size: 54px;
+font-size: 50px;
 line-height: 66px;
 letter-spacing: -0.015em;
-color: #000000;
+color: var(--black);
 margin-bottom: 0px;
 }
 .cryptoindustry-slider__description {
     font-family: var(--montserrat);
 font-style: normal;
 font-weight: 400;
-font-size: 30px;
+font-size: 24px;
 line-height: 37px;
 letter-spacing: -0.015em;
-color: #000000;
+color: var(--black);
 margin-bottom: 60px;
 }
 .cryptoindustry-slider__btn {
@@ -75,7 +75,7 @@ margin-bottom: 60px;
     font-family: var(--montserrat);
 font-style: normal;
 font-weight: 700;
-font-size: 30px;
+font-size: 24px;
 line-height: 37px;
 letter-spacing: -0.015em;
 color: var(--white);
@@ -108,29 +108,32 @@ padding: 20px 78px;
 }
 .cryptoindustry-screen_container__youtube{
     margin-bottom: 70px;
-}
-.youtube-slider{
+    position: relative;
     margin: 0 auto;
 }
-.slider-container__youtube{
-    max-width: 1289px;
-    margin: 0 auto;
-    padding: 30px;
-}
-.youtube_container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);    
-}
-.youtube-video iframe{
-    max-width: 300px;
-    max-height:200px ;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    margin: 0 auto;   
-}
-.youtube-video{
+.cryptoindustry-screen_container__youtube .slick-track{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+}
+.youtube-slider{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 0 auto;
+}
+.youtube-item__container{
+    display: flex;
+    justify-content: center;
+    max-width:400px;
+    max-height:500px ;
+}
+.cryptoindustry-screen_container__youtube .slick-initialized .slick-slide{
+    display: flex;
+    justify-content: center;
+}
+.youtube-item__container iframe{
+    border-radius:20px;
+    width: 100%;
+    height:100% ;
+    margin: 0 auto;
 }
