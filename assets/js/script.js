@@ -35,14 +35,13 @@ $('.menu-item').on('click', function(){
         settings: {
           arrows: true,
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '30px',
           slidesToShow: 1
         }
       }
     ]
     });
   });
-
 //tabs 
   $(function() {
     var tab = $('#tabs .tabs-items > div'); 

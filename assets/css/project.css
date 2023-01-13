@@ -1,0 +1,201 @@
+.condition__title {
+    text-align: center;
+}
+.conditions__steps {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 80px 0 65px;
+    position: relative;
+}
+.conditions__steps::after {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 950px;
+    background-color: var(--yellow);
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+}
+.step {
+    font-family: var(--montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    max-width: 420px;
+    margin-bottom: 190px;
+    position: relative;
+}
+.step::after {
+    content: '';
+    display: block;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background-color: var(--yellow);
+    position: absolute;
+    left: calc(100% + 70px);
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.step:nth-child(2n) {
+    margin-left: auto;
+    margin-right: 0;
+}
+.step:nth-child(2n)::after {
+    content: '';
+    display: block;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background-color: var(--yellow);
+    position: absolute;
+    left: calc(0% - 70px);
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.yellow__btn {
+    max-width: 405px;
+    margin: 0 auto;
+}
+.yellow__btn a{
+    color: var(--black);
+}
+
+
+/* list-projects */
+.list-projects-container__info{
+display: flex;
+justify-content: center;
+}
+.list-projects__title{
+    margin-bottom: 0;
+}
+.grid-projects{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 70px;
+    max-width: 1270px;
+}
+.grid-projects__rows{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: -25px;
+}
+.grid-projects__item {
+    margin-bottom: 25px;
+    margin-right: 25px;
+    max-width: 290px;
+    padding: 10px 10px 15px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid-projects-item__img {
+    max-width: 270px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.grid-projects-item__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.015em;
+    color: #000000;
+    margin-bottom: 7px;
+}
+.grid-projects-item__description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: -0.015em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.grid-projects-item__status-bar {
+    width: 270px;
+    height: 65px;
+    background: #EEEEEE;
+    border-radius: 10px;
+    padding: 12px;
+}
+.status-bar__price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.done-price {
+    color: #6285FC;
+}
+.done-price,
+.sum-price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: -0.015em;
+}
+.sum-price {
+    color: #868686;
+}
+.progress {
+    width: 100%;
+    height: 2px;
+    background-color: #B5B5B5;
+    margin-bottom: 7px;
+    
+}
+.progress::-webkit-progress-value{
+    background-color: var(--blue);
+}
+.bar {
+    width: 70px;
+    height: 2px;
+    background-color: #6285FC;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+.add-to-like {
+    max-width: 60px;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    background: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5px;
+    line-height: 140%;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.add-to-like img {
+    width: 18px;
+    height: 18px;
+}
+.done {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 140%;
+    text-align: right;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.list-projects .yellow__btn{
+    font-size: 22px;
+}
