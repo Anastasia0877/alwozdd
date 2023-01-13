@@ -140,7 +140,7 @@
 .descriptio-project{
     max-width: 980px;
     margin-bottom: 60px;
-    font-family: 'Montserrat';
+    font-family: var(--montserrat);
 font-style: normal;
 font-weight: 400;
 font-size: 30px;
@@ -157,6 +157,27 @@ color: #FFFFFF;
 .employer {
     display: flex;
 }
+.employer-info__name,
+.question__title {
+    font-family: var(--montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 18px;
+    letter-spacing: -0.015em;
+    color: var(--yellow);
+    margin-bottom: 10px;
+}
+.employer-info__position,
+.question__answer {
+    font-family: var(--montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
 .employer img {
     width: 300px;
     height: 400px;
@@ -169,7 +190,7 @@ color: #FFFFFF;
 }
 .employer-info__position,
 .question__answer  {
-    font-family: 'Montserrat';
+    font-family: var(--montserrat);
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
@@ -180,7 +201,7 @@ color: #FFFFFF;
 }
 .employer-info__position,
 .question__answer {
-    font-family: 'Montserrat';
+    font-family: var(--montserrat);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-   margin: 0 auto 70px;
+    margin: 0 auto 70px;
 }
 .logo {
     max-width: 126px;
@@ -14,7 +14,7 @@
     max-width: 100%;
     max-height: 100%;
 }
-.select_container{
+.select_container {
     min-width: 200px;
     display: flex;
     align-items: center;
@@ -34,19 +34,20 @@
     letter-spacing: -0.015em;
     text-transform: uppercase;
     color: var(--white);
+
 }
 .site-nav .nice-select.open .list {
     background: var(--white);
     border-radius: 10px;
-    opacity: 0.9;
+    opacity: 1;
     transition: 0.5s;
-    padding: 10px 0px;
+    margin-top: 23px;
+    padding: 10px 0;
+    border: 2px solid var(--border-menu);
 }
 .site-nav .nice-select .list {
     background-color: transparent;
     border: none;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
     opacity: 0;
     transition: 0.5s;
     font-family: var(--montserrat);
@@ -70,12 +71,12 @@
 .site-nav .nice-select .option.selected.focus {
     background-color: transparent;
 }
-.menu ul{
+.menu ul {
     width: 620px;
     display: flex;
     justify-content: space-between;
 }
-.menu ul li a{
+.menu ul li a {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -83,7 +84,7 @@
     font-family: var(--montserrat);
     color: var(--white);
 }
-.burger-account{
+.burger-account {
     display: none;
 }
 .menu-action {
@@ -91,7 +92,7 @@
     display: flex;
     justify-content: space-between;
 }
-.menu-action img{
+.menu-action img {
     max-width: 25px;
     max-height: 25px;
 }

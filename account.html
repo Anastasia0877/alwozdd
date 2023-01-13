@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=0">
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon_io/apple-touch-icon.png">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon_io/favicon-32x32.png">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Alwoz</title>
+    </head>
+    <body class="bg-white">
+        <header class="header__bg">
+            <nav>
+                <div class="site-nav">
+                    <div class="menu-icon"></div>
+                    <div class="select_container">
+                        <div class="logo">
+                            <a href="index.html"><img class="logo__img" src="./assets/img/logo.svg"></a>
+                        </div>
+                        <select name="lang" id="lang">
+                            <option value="UA">UA</option>
+                            <option value="EN">EN</option>
+                            <option value="RU">RU</option>
+                            <option value="FR">FR</option>
+                            <option value="DE">DE</option>
+                            <option value="CH">CH</option>
+                        </select>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li class="menu-item">
+                                <a href="index.html">ГЛАВНАЯ</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="project.html">ПРОЕКТЫ</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="cybersecurity.html">КИБЕРБЕЗОПАСНОСТЬ</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="cryptoindustry.html">КРИПТОИНДУСТРИЯ</a>
+                            </li>
+                            <li class="menu-item burger-account">
+                                <a href="account.html">ПРОФИЛЬ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-action">
+                        <a class="basket menu-item" href="basket.html"><img src="./assets/img/header__basket.svg"></a>
+                        <a class="like menu-item" href="like.html"><img src="./assets/img/header__like.svg"></a>
+                        <a class="account menu-item" href="account.html"><img src="./assets/img/header__user.svg"></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="account-page">
+                <div class="container ccount-page_container">
+                    <div class="container__info info_container">
+                        <h1 class="container__title account__title">ПРОФИЛЬ</h1>
+                    </div>
+                    <div id="account-tabs">
+                        <!-- Кнопки -->
+                        <ul class="account__tabs-nav">
+                            <li><a href="#account__tab-1">Настройки</a></li>
+                            <li><a href="#account__tab-2">Заказы</a></li>
+                            <li><a href="#account__tab-3">Выход</a></li>
+                        </ul>	
+                        
+                        <!-- Контент -->
+                        <div class="account__tabs-items">
+                            <div class="account__tabs-item" id="account__tab-1">
+                               <form>
+                                <div class="setting-name">
+                                <div class="setting-item">
+                                <label for="name">Имя:</label>
+                                <input type="text" id="name">
+                            </div>
+                            <div class="setting-item">
+                                <label for="surname">Фамилия:</label>
+                                <input type="text" id="surname">
+                            </div>
+                        </div>
+                        <div class="setting-other-date">
+                            <div class="setting-item">
+                                <label for="site">Веб-сайт:</label>
+                                <input type="url" id="site">
+                            </div>
+                            <div class="setting-item">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email">
+                            </div>
+                            <div class="setting-item">
+                                <label for="password">Пароль:</label>
+                                <input type="password" id="password">
+                            </div>
+                            <div class="setting-item">
+                                <label for="account-description">О себе:</label>
+                                <textarea id="account-description"></textarea>
+                            </div>
+                        </div>
+                        <input class="save" type="submit" value="Сохранить">
+                                       </form>
+                            </div>
+                            <div class="account__tabs-item" id="account__tab-2">
+                                <div class="accordion accordion__order">
+                                    <div class="accordion__item">
+                                            <div class="accordion__title">
+                                                <div class="accordion__arrow"></div> 
+                                                <span class="accordion__title-text">Заказ №2031</span>
+                                                <div class="order__sum">3000$</div>
+                                            </div>
+                                            <div class="accordion__content">
+                                                <div class="basket-list__item order__item">
+                                                    <img src="./assets/img/cyber-service-img.png">
+                                                    <div class="basket-item__info order-item__info">
+                                                        <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                                        <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                                        </p>
+                                                    </div>
+                                                    <div class="basket-item__price order-item__price">500$</div>
+                                                </div>
+                                                <div class="basket-list__item order__item">
+                                                    <img src="./assets/img/cyber-service-img.png">
+                                                    <div class="basket-item__info order-item__info">
+                                                        <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                                        <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                                        </p>
+                                                    </div>
+                                                    <div class="basket-item__price order-item__price">500$</div>
+                                                </div>
+                                                <div class="basket-list__item order__item">
+                                                    <img src="./assets/img/cyber-service-img.png">
+                                                    <div class="basket-item__info order-item__info">
+                                                        <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                                        <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                                        </p>
+                                                    </div>
+                                                    <div class="basket-item__price order-item__price">500$</div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <div class="accordion__item">
+                                        <div class="accordion__title">
+                                            <div class="accordion__arrow"></div> 
+                                            <span class="accordion__title-text">Заказ №2031</span>
+                                            <div class="order__sum">3000$</div>
+                                        </div>
+                                        <div class="accordion__content">
+                                            <div class="basket-list__item order__item">
+                                                <img src="./assets/img/cyber-service-img.png">
+                                                <div class="basket-item__info order-item__info">
+                                                    <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                                    <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                                    </p>
+                                                </div>
+                                                <div class="basket-item__price order-item__price">500$</div>
+                                            </div>
+                                            <div class="basket-list__item order__item">
+                                                <img src="./assets/img/cyber-service-img.png">
+                                                <div class="basket-item__info order-item__info">
+                                                    <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                                    <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                                    </p>
+                                                </div>
+                                                <div class="basket-item__price order-item__price">500$</div>
+                                            </div>
+                                            <div class="basket-list__item order__item">
+                                                <img src="./assets/img/cyber-service-img.png">
+                                                <div class="basket-item__info order-item__info">
+                                                    <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                                    <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                                    </p>
+                                                </div>
+                                                <div class="basket-item__price order-item__price">500$</div>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="accordion__item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__arrow"></div> 
+                                        <span class="accordion__title-text">Заказ №2031</span>
+                                        <div class="order__sum">3000$</div>
+                                    </div>
+                                    <div class="accordion__content">
+                                        <div class="basket-list__item order__item">
+                                            <img src="./assets/img/cyber-service-img.png">
+                                            <div class="basket-item__info order-item__info">
+                                                <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                                <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                                </p>
+                                            </div>
+                                            <div class="basket-item__price order-item__price">500$</div>
+                                        </div>
+                                        <div class="basket-list__item order__item">
+                                            <img src="./assets/img/cyber-service-img.png">
+                                            <div class="basket-item__info order-item__info">
+                                                <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                                <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                                </p>
+                                            </div>
+                                            <div class="basket-item__price order-item__price">500$</div>
+                                        </div>
+                                        <div class="basket-list__item order__item">
+                                            <img src="./assets/img/cyber-service-img.png">
+                                            <div class="basket-item__info order-item__info">
+                                                <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                                <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                                </p>
+                                            </div>
+                                            <div class="basket-item__price order-item__price">500$</div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="accordion__item">
+                                <div class="accordion__title">
+                                    <div class="accordion__arrow"></div> 
+                                    <span class="accordion__title-text">Заказ №2031</span>
+                                    <div class="order__sum">3000$</div>
+                                </div>
+                                <div class="accordion__content">
+                                    <div class="basket-list__item order__item">
+                                        <img src="./assets/img/cyber-service-img.png">
+                                        <div class="basket-item__info order-item__info">
+                                            <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                            <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                            </p>
+                                        </div>
+                                        <div class="basket-item__price order-item__price">500$</div>
+                                    </div>
+                                    <div class="basket-list__item order__item">
+                                        <img src="./assets/img/cyber-service-img.png">
+                                        <div class="basket-item__info order-item__info">
+                                            <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                            <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                            </p>
+                                        </div>
+                                        <div class="basket-item__price order-item__price">500$</div>
+                                    </div>
+                                    <div class="basket-list__item order__item">
+                                        <img src="./assets/img/cyber-service-img.png">
+                                        <div class="basket-item__info order-item__info">
+                                            <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                            <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                            </p>
+                                        </div>
+                                        <div class="basket-item__price order-item__price">500$</div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__title">
+                                <div class="accordion__arrow"></div> 
+                                <span class="accordion__title-text">Заказ №2031</span>
+                                <div class="order__sum">3000$</div>
+                            </div>
+                            <div class="accordion__content">
+                                <div class="basket-list__item order__item">
+                                    <img src="./assets/img/cyber-service-img.png">
+                                    <div class="basket-item__info order-item__info">
+                                        <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                        <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                        </p>
+                                    </div>
+                                    <div class="basket-item__price order-item__price">500$</div>
+                                </div>
+                                <div class="basket-list__item order__item">
+                                    <img src="./assets/img/cyber-service-img.png">
+                                    <div class="basket-item__info order-item__info">
+                                        <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                        <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                        </p>
+                                    </div>
+                                    <div class="basket-item__price order-item__price">500$</div>
+                                </div>
+                                <div class="basket-list__item order__item">
+                                    <img src="./assets/img/cyber-service-img.png">
+                                    <div class="basket-item__info order-item__info">
+                                        <h3 class="basket-item__title order-item__title ">Название кейса или услуги №1</h3>
+                                        <p class="basket-item__description order-item__description">Описание: Состав кейса по пунктам Характеристики Достоинства Лучший вариант кейса или услуги №1
+                                        </p>
+                                    </div>
+                                    <div class="basket-item__price order-item__price">500$</div>
+                                </div>
+                            </div>
+                    </div>
+                        </div>
+                            </div>	
+                            <div class="account__tabs-item" id="account__tab-3">
+                                <div class="exit__btn">Выйти из профиля</div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+            
+                        
+                </section>
+
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer-tablet-container">
+                    <div class="footer__logo">
+                        <a href="index.html"><img class="logo__img" src="./assets/img/logo.svg"></a>
+                    </div>
+                    <div class="footer-mobile-container">
+                        <div class="footer-menu">
+                            <ul class="footer-submenu">
+                                <li>
+                                    <a href="index.html">ГЛАВНАЯ</a>
+                                </li>
+                                <li>
+                                    <a href="project.html">ПРОЕКТЫ</a>
+                                </li>
+                                <li>
+                                    <a href="cybersecurity.html">КИБЕРБЕЗОПАСНОСТЬ</a>
+                                </li>
+                                <li>
+                                    <a href="cryptoindustry.html">КРИПТОИНДУСТРИЯ</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-submenu">
+                                <li>
+                                    <a href="info.html">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="info.html">ОФЕРТА</a>
+                                </li>
+                                <li>
+                                    <a href="info.html">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="contact">
+                            <li class="contact__title">Телефоны:</li>
+                            <li>+38(000)000-00-00</li>
+                            <li>+38(000)000-00-00</li>
+                            <li>+38(000)000-00-00</li>
+                            <li>АДРЕС: г.Киев</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__social">
+                    <h5>Соц.сети:</h5>
+                    <div class="social__row">
+                        <a href="#" class="social__item"><img src="./assets/img/footer__youtube.svg"></a>
+                        <a href="#" class="social__item"><img src="./assets/img/footer__telegram.svg"></a>
+                        <a href="#" class="social__item"><img src="./assets/img/footer__gmail.svg"></a>
+                        <a href="#" class="social__item"><img src="./assets/img/footer__twitter.svg"></a>
+                        <a href="#" class="social__item"><img src="./assets/img/footer__instagram.svg"></a>
+                        <a href="#" class="social__item"><img src="./assets/img/footer__facebook.svg"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./assets/js/jQuery v3.6.1.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
