@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body style="background-color:#F5F5F5; padding: 30px;">
+    <div class="sign-up">
+        
+        <form class="form__sign-up">
+            <div class="sing-up-container__info">
+                <h1 class="container__title modal_title">ЗАРЕГИСТРИРОВАТЬСЯ</h1>
+            </div>
+            <div class="sign-up-name">
+                <div class="sign-up-item">
+                <label for="sign-up-name">Имя:</label>
+                <input type="text" id="sign-up-name">
+            </div>
+            <div class="sign-up-item">
+                <label for="sign-up-surname">Фамилия:</label>
+                <input type="text" id="sign-up-surname">
+            </div>
+        </div>
+        <div class="sign-up-other-date">
+            <div class="sign-up-item">
+                <label for="sign-up-email">Email:</label>
+                <input type="email" id="sign-up-email">
+            </div>
+            <div class="sign-up-item">
+                <label for="sign-up-nickname">Имя пользователя:</label>
+                <input type="text" id="sign-up-nickname">
+            </div>
+            <div class="sign-up-item">
+                <label for="sign-up-password">Пароль:</label>
+                <input type="password" id="sign-up-password">
+            </div>
+        </div>
+        <input class="sign-up__btn" value="Зарегистрироваться" type="submit">
+        <div class="come-to-sign-in">У вас уже есть учетная запись? <a href="#">Войти</a></div>
+            </form>
+    </div>
+
+<br><br><br><br><br><br><br><br>
+
+    <div class="sign-in">
+        <form class="form__sign-in">
+            <div class="sing-in-container__info">
+                <h1 class="container__title modal_title">ВОЙТИ</h1>
+            </div>
+        <div class="sign-in-other-date">
+            <div class="sign-in-item sign-in-item__email">
+                <label for="sign-in-email">Email:</label>
+                <input type="email" id="sign-in-email">
+                <div class="sign-in-item-email__after">Напомните мне</div>
+            </div>
+            <div class="sign-in-item sign-in-item__password">
+                <label for="sign-in-password">Пароль:</label>
+                <input type="password" id="sign-in-password">
+                <div class="sign-in-item-password__after">Забыли</div>
+            </div>
+        </div>
+        <input class="sign-in__btn" value="Войти" type="submit">
+        <div class="come-to-sign-up">Новый пользователь?<a href="#">Создать учетную запись</a></div>
+            </form>
+    </div>
+
+    <br><br><br><br><br><br><br><br>
+
+    <div id="modal-request" class="modal">
+        <form class="form__modal-request">
+            <div class="modal-request-container__info">
+                <h1 class="container__title modal_title">ОСТАВИТЬ ЗАЯВКУ</h1>
+            </div>
+        <div class="modal-request-other-date">
+            <div class="modal-request-item">
+                <label for="modal-request-name">Ваше имя*</label>
+                <input type="text" id="modal-request-name">
+            </div>
+            <div class="modal-request-item">
+                <label for="modal-request-email">Почта*</label>
+                <input type="email" id="modal-request-email">
+            </div>
+            <div class="modal-request-item">
+                <label for="modal-request-password">Номер телефона</label>
+                <input type="tel" id="modal-request-tel">
+            </div>
+        </div>
+        <input class="modal-request__btn" value="Оставить заявку" type="submit">            
+    </form>
+    </div>
+    <br><br><br><br><br><br><br><br>
+
+    <div class="modal-add-project">
+        <form class="form__modal-add-project">
+            <div class="modal-add-project-container__info">
+                <h1 class="container__title modal_title">ДОБАВИТЬ ПРОЕКТ</h1>
+            </div>
+        <div class="modal-add-project-other-date">
+            <div class="modal-add-project-item">
+                <label for="modal-add-project-name">НАЗВАНИЕ ПРОЕКТА</label>
+                <input type="text" id="modal-add-project-name">
+            </div>
+            <div class="modal-add-project-item">
+                <label for="modal-add-project-email">ОПИСАНИЕ ПРОЕКТА</label>
+                <textarea id="modal-add-project-email"></textarea>
+            </div>
+            <div class="modal-add-project-item">
+                <label for="modal-add-project-password">СУММА СБОРА</label>
+                <input type="tel" id="modal-add-project-tel">
+            </div>
+            <div class="modal-add-project-item">
+                <label class="input-file">
+                    <span class="input-file-text"></span>
+                    <div class="files">
+                        <input type="file" name="file">
+                        <span>Загрузить фото проекта</span>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <input class="modal-add-project__btn" value="Добавить проект" type="submit">            
+    </form>
+    </div>
+
+    <br><br><br><br><br><br><br><br>
+
+    
+</body>
+<script src="./assets/js/jQuery v3.6.1.js"></script>
+<script src="./assets/js/script.js"></script>
+</html>

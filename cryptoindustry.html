@@ -57,14 +57,14 @@
                                 <a href="cryptoindustry.html">КРИПТОИНДУСТРИЯ</a>
                             </li>
                             <li class="menu-item burger-account">
-                                <a href="account.html">ПРОФИЛЬ</a>
+                                <a href="account.html" data-modal="#sign-in">ПРОФИЛЬ</a>
                             </li>
                         </ul>
                     </div>
                     <div class="menu-action">
                         <a class="basket menu-item" href="basket.html"><img src="./assets/img/header__basket.svg"></a>
                         <a class="like menu-item" href="like.html"><img src="./assets/img/header__like.svg"></a>
-                        <a class="account menu-item" href="account.html"><img src="./assets/img/header__user.svg"></a>
+                        <a class="account menu-item" href="account.html" data-modal="#sign-in"><img src="./assets/img/header__user.svg"></a>
                     </div>
                 </div>
             </nav>
@@ -440,7 +440,63 @@
     </div>
 </div>
 </section>
-
+<div id="sign-up" class="modal">
+        
+    <form class="form__sign-up">
+        <button class="close-modal" data-close="#sign-up"></button>
+        <div class="sing-up-container__info">
+            <h1 class="container__title modal_title">ЗАРЕГИСТРИРОВАТЬСЯ</h1>
+        </div>
+        <div class="sign-up-name">
+            <div class="sign-up-item">
+            <label for="sign-up-name">Имя:</label>
+            <input type="text" id="sign-up-name">
+        </div>
+        <div class="sign-up-item">
+            <label for="sign-up-surname">Фамилия:</label>
+            <input type="text" id="sign-up-surname">
+        </div>
+    </div>
+    <div class="sign-up-other-date">
+        <div class="sign-up-item">
+            <label for="sign-up-email">Email:</label>
+            <input type="email" id="sign-up-email">
+        </div>
+        <div class="sign-up-item">
+            <label for="sign-up-nickname">Имя пользователя:</label>
+            <input type="text" id="sign-up-nickname">
+        </div>
+        <div class="sign-up-item">
+            <label for="sign-up-password">Пароль:</label>
+            <input type="password" id="sign-up-password">
+        </div>
+    </div>
+    <input class="sign-up__btn" value="Зарегистрироваться" type="submit">
+    <div class="come-to-sign-in">У вас уже есть учетная запись? <a href="#" data-modal="#sign-in" data-close="#sign-up">Войти</a></div>
+        </form>
+</div>
+<div id="sign-in" class="modal">
+    <form class="form__sign-in">
+        <button class="close-modal" data-close="#sign-in"></button>
+        <div class="sing-in-container__info">
+            <h1 class="container__title modal_title">ВОЙТИ</h1>
+        </div>
+    <div class="sign-in-other-date">
+        <div class="sign-in-item sign-in-item__email">
+            <label for="sign-in-email">Email:</label>
+            <input type="email" id="sign-in-email">
+            <div class="sign-in-item-email__after">Напомните мне</div>
+        </div>
+        <div class="sign-in-item sign-in-item__password">
+            <label for="sign-in-password">Пароль:</label>
+            <input type="password" id="sign-in-password">
+            <div class="sign-in-item-password__after">Забыли</div>
+        </div>
+    </div>
+    <input class="sign-in__btn" value="Войти" type="submit">
+    <div class="come-to-sign-up">Новый пользователь?<a href="#" data-modal="#sign-up" data-close="#sign-in">Создать учетную запись</a></div>
+        </form>
+</div>
 </main>
 <footer>
 <div class="footer">

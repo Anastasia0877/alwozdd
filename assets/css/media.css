@@ -935,11 +935,107 @@
     }
 
 }
-
 /* modal-window */
-@media(max-width:1024.98px){
+@media (max-width:635px) {
 
+    .form__sign-up input,
+    .form__sign-up label {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .sign-up-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .sign-up-name {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .sign-up-name .sign-up-item {
+        margin-bottom: 20px;
+    }
+    .sign-up-other-date .sign-up-item {
+        margin-bottom: 20px;
+    }
+
+    .form__sign-up .sign-up-name .sign-up-item input {
+        max-width: 572px;
+        width: 100%;
+        margin-right: 92px;
+    }
+    .form__sign-up input {
+        max-width: 572px;
+        width: 100%;
+    }
+    .sign-up-other-date::after {
+        left: 0;
+        bottom: calc(0% - 95px);
+        font-size: 16px;
+    }
+    .form__sign-up .sign-up__btn {
+        font-size: 20px;
+        line-height: 27px;
+        padding: 12px 115px;
+        display: flex;
+        justify-content: center;
+
+    }
 }
-@media(max-width:579.98px){
-    
+@media(max-width:579.98px) {
+    .form__modal-request {
+        max-width: 752px;
+        padding: 80px 54px 66px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .modal-request-other-date {
+        margin-bottom: 37px;
+    }
+    .form__modal-request .modal-request__btn {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 35px 75px;
+        min-width: 321.67px;
+    }
+    .form__modal-request input,
+    .form__modal-request label {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .form__modal-request input {
+        min-height: 70px;
+        min-width: 320px;
+    }
+    .form__modal-request .modal_title {
+        font-size: 26px;
+    }
+    .form__sign-in input,
+    .form__sign-in label {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .form__sign-in input {
+        padding: 6px;
+        font-weight: 400;
+        min-width: 420px;
+        width: 100%;
+        min-height: 91px;
+        margin-top: 18px;
+    }
+    .sign-in-item-email__after,
+    .sign-in-item-password__after {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .sign-in-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .form__sign-in .sign-in__btn {
+        font-size: 20px;
+        line-height: 27px;
+        padding: 12px 115px;
+
+    }
 }

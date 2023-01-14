@@ -21,6 +21,26 @@ $('.menu-item').on('click', function(){
   // $('body').removeClass("overlay");
 })  
 
+// open modal-window
+const modalcall = $("[data-modal]");
+const modalclose = $("[data-close]");
+modalcall.on("click", function(event){
+  event.preventDefault();
+  let $this = $(this);
+let modalId =$this.data('modal'); 
+
+$(modalId).addClass('show');
+});
+modalclose.on("click", function(event){
+  event.preventDefault();
+  let $this = $(this);
+let modalParent =$this.parents('.modal'); 
+
+modalParent.removeClass('show');
+});
+
+
+
 // case-slider
   $(document).ready(function(){
     $('.cases-slider').slick({
