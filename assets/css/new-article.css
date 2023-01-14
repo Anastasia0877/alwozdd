@@ -42,7 +42,13 @@ font-family: var(--montserrat);
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
+transition: 0.5s;
 line-height: 24px;
 letter-spacing: -0.015em;
-color: #6285FC;
+color: var(--blue);
+cursor: pointer;
+}
+.back:hover{
+    font-size: 22px;
+    transition: 0.5s;
 }
