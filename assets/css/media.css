@@ -315,9 +315,9 @@
         margin-bottom: 60px;
     }
     .cryptoindustry-slider__btn {
-        font-size: 20px;
+        font-size: 14px;
         line-height: 37px;
-        padding: 16px 48px;
+        padding: 12px 38px;
     }
     .new__info-box {
         margin-left: auto;
@@ -935,6 +935,7 @@
     }
 
 }
+
 /* modal-window */
 @media (max-width:635px) {
 
@@ -1039,3 +1040,5 @@
 
     }
 }
+
+

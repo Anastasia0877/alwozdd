@@ -26,7 +26,7 @@
 .new-container__img {
     position: relative;
     z-index: 1;
-    margin-right:-300px ;
+    margin-right:-280px ;
     margin-top: -50px;
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
     border-radius: 20px;
@@ -38,13 +38,13 @@
     border-radius: 20px;
     max-width: 1135px;
     width:100%;
-    padding: 40px 65px 55px 330px;
+    padding: 40px 25px 55px 280px;
 }
 .new-date {
     font-family: var(--montserrat);
 font-style: normal;
 font-weight: 700;
-font-size: 24px;
+font-size: 22px;
 line-height: 29px;
 letter-spacing: -0.015em;
 color: var(--color-date);
@@ -54,7 +54,7 @@ margin-bottom: 26px;
     font-family: var(--montserrat);
 font-style: normal;
 font-weight: 700;
-font-size: 50px;
+font-size: 40px;
 line-height: 66px;
 letter-spacing: -0.015em;
 color: var(--black);
@@ -64,24 +64,25 @@ margin-bottom: 0px;
     font-family: var(--montserrat);
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
-line-height: 37px;
+font-size: 16px;
+line-height: 30px;
 letter-spacing: -0.015em;
 color: var(--black);
 margin-bottom: 60px;
+max-width: 700px;
 }
 .cryptoindustry-slider__btn {
     display: inline-flex;
     font-family: var(--montserrat);
 font-style: normal;
 font-weight: 700;
-font-size: 24px;
-line-height: 37px;
+font-size: 20px;
+line-height: 30px;
 letter-spacing: -0.015em;
 color: var(--white);
 background: var(--blue);
 border-radius: 20px;
-padding: 20px 78px;
+padding: 14px 58px;
 transform: scale(1);
 transition: 0.5s;
 }
@@ -102,8 +103,8 @@ transition: 0.5s;
 .article-container__img img,
 .new-container__img img
 {
-    max-width: 430px;
-    max-height: 430px;
+    max-width: 350px;
+    max-height: 350px;
 }
 .article-container__img {
     margin-right: 60px;

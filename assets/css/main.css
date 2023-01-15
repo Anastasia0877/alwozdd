@@ -36,16 +36,16 @@ a {
     padding: 12px;
 }
 section {
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 .container__info {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .container__title {
     font-family: var(--russo-one);
     font-weight: 400;
-    font-size: 64px;
+    font-size: 54px;
     line-height: 77px;
     letter-spacing: -0.015em;
     color: var(--white);
@@ -54,7 +54,7 @@ section {
 .container__subtitle {
     font-family: var(--montserrat);
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 49px;
     letter-spacing: -0.015em;
     color: var(--white);
@@ -122,6 +122,7 @@ section {
     justify-content: center;
 }
 .cards__row {
+    transform: scale(0.9);
     max-width: 1165px;
     display: flex;
     justify-content: space-e;
@@ -151,8 +152,8 @@ section {
     margin-bottom: 55px;
 }
 .card__icon {
-    width: 195px;
-    height: 195px;
+    width: 165px;
+    height: 165px;
     margin-bottom: 35px;
 }
 .card__icon img {
@@ -166,16 +167,17 @@ section {
     line-height: 29px;
     letter-spacing: 0.02em;
     color: var(--white);
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     min-height: 150px;
 }
 .yellow__btn {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 27px;
-    padding: 24px 54px;
+    padding: 18px 54px;
 }
 
 /* cases */
+
 .cases__subtitle {
     max-width: 1200px;
     margin-bottom: 0;
@@ -184,13 +186,14 @@ section {
     font-weight: 700;
 }
 .cases-slider-container {
+    transform: scale(0.8);
     position: relative;
 }
 .cases-slider {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding: 30px;
+    padding: 10px 30px 30px 30px;
     align-items: center;
 }
 .cases .slick-track {
@@ -217,7 +220,7 @@ section {
     align-items: center;
 }
 .case.slick-current .case_container {
-    transform: scale(0.85);
+    transform: scale(0.8);
     transition: 0.8s;
     background-color: var(--white);
     padding: 78px 45px 104px;

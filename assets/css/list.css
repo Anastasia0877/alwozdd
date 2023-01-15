@@ -25,6 +25,9 @@
     margin-right: 28px;
     border-radius: 10px;
 }
+.list-item__info{
+    padding: 12px;
+}
 .list-item-info__date {
     font-family: var(--montserrat);
     font-style: normal;
