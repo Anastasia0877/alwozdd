@@ -122,7 +122,6 @@ section {
     justify-content: center;
 }
 .cards__row {
-    transform: scale(0.9);
     max-width: 1165px;
     display: flex;
     justify-content: space-e;
@@ -135,7 +134,7 @@ section {
     background: var(--gradient-purple);
     width: 360px;
     border-radius: 55px;
-    padding: 38px 30px 55px;
+    padding: 45px 30px 45px;
 }
 .card:first-child,
 .card:last-child {
@@ -144,7 +143,7 @@ section {
 .card__title {
     font-family: var(--russo-one);
     font-weight: 400;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 39px;
     text-align: center;
     letter-spacing: 0.02em;
@@ -152,8 +151,8 @@ section {
     margin-bottom: 55px;
 }
 .card__icon {
-    width: 165px;
-    height: 165px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 35px;
 }
 .card__icon img {
@@ -163,15 +162,15 @@ section {
 .card__subtitle {
     font-family: var(--montserrat);
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 29px;
     letter-spacing: 0.02em;
     color: var(--white);
-    margin-bottom: 20px;
-    min-height: 150px;
+    margin-bottom: 10px;
+    min-height: 135px;
 }
 .yellow__btn {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 27px;
     padding: 18px 54px;
 }
