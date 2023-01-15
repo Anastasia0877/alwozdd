@@ -58,6 +58,16 @@ modalParent.removeClass('show');
           centerPadding: '30px',
           slidesToShow: 1
         }
+      },
+        {
+        breakpoint: 1024,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '30px',
+          slidesToShow: 1,
+          dots:true
+        }
       }
     ]
     });

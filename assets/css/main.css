@@ -195,6 +195,27 @@ section {
     padding: 10px 30px 30px 30px;
     align-items: center;
 }
+.cases .slick-dots{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    max-width: 100px;
+    width: 100%;
+}
+.slick-dots li button{
+    font-size: 0;
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+}
+.slick-dots .slick-active button{
+    background-color: var(--white);
+}
 .cases .slick-track {
     height: 800px;
     display: flex;
