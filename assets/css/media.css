@@ -10,7 +10,7 @@
         width: 20px;
         height: 20px;
         cursor: pointer;
-        background: url("data:image/svg+xml,%3Csvg width='86' height='62' viewBox='0 0 86 62' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 5.17197H38.7778' stroke='white' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M5 30.0601H81' stroke='white' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M5 57H81' stroke='white' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center no-repeat;
+        background: url("data:image/svg+xml,%3Csvg width='23' height='13' viewBox='0 0 23 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1H21.8333M1 6.20833H21.8333M1 11.4167H21.8333' stroke='white' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E") center no-repeat;
         transition: 0.2;
     }
     .logo {
