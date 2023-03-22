@@ -1,5 +1,5 @@
 .account-page_container {
-    max-width: 1480px;
+    max-width: 1280px;
     margin: 0 auto 300px;
     padding: 12px;
 }
@@ -7,7 +7,7 @@
     color: var(--black);
 }
 #account-tabs {
-    max-width: 1355px;
+    max-width: 1255px;
     margin-left: 50px;
     margin-bottom: 50px;
 }
@@ -39,7 +39,7 @@
     font-family: var(--montserrat);
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 20px;
     text-align: center;
     letter-spacing: -0.015em;
@@ -60,7 +60,7 @@
 }
 
 .setting-other-date {
-    max-width: 1285px;
+    max-width: 1085px;
 }
 .setting-name {
     display: flex;
@@ -75,14 +75,14 @@
     flex-direction: column;
 }
 .setting-other-date .setting-item {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 .setting-item label {
     font-family: var(--montserrat);
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 22px;
+    line-height: 28px;
     letter-spacing: -0.015em;
     color: var(--black);
 }
@@ -91,14 +91,14 @@
     font-family: var(--montserrat);
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 22px;
+    line-height: 28px;
     letter-spacing: -0.015em;
     color: var(--black);
     background: var(--bg-item);
     border: 1px solid var(--color-after-text);
     border-radius: 10px;
-    min-height: 75px;
+    min-height: 50px;
     min-width: 100%;
 }
 #account-description {
@@ -125,15 +125,18 @@
     font-family: var(--montserrat);
 font-style: normal;
 font-weight: 700;
-font-size: 30px;
-line-height: 37px;
+font-size: 22px;
+line-height: 27px;
 text-align: center;
 letter-spacing: -0.015em;
 color: var(--white);
 background: var(--blue);
 border-radius: 20px;
-padding: 12px 140px;
+padding: 12px 40px;
 border: none;
+}
+.accordion__order{
+    max-width: 1085px;
 }
 .accordion__order .accordion__title{
     display: flex;
@@ -147,7 +150,7 @@ border: none;
    display: inline;
 }
 .account-page .accordion__title-text{
-    font-size: 24px;
+    font-size: 20px;
 }
 .account-page .order__sum{
     font-size: 24px;

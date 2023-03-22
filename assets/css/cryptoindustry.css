@@ -44,8 +44,8 @@
     font-family: var(--montserrat);
 font-style: normal;
 font-weight: 700;
-font-size: 22px;
-line-height: 29px;
+font-size: 18px;
+line-height: 22px;
 letter-spacing: -0.015em;
 color: var(--color-date);
 margin-bottom: 26px;
@@ -76,13 +76,13 @@ max-width: 700px;
     font-family: var(--montserrat);
 font-style: normal;
 font-weight: 700;
-font-size: 20px;
-line-height: 30px;
+font-size: 18px;
+line-height: 22px;
 letter-spacing: -0.015em;
 color: var(--white);
 background: var(--blue);
 border-radius: 20px;
-padding: 14px 58px;
+padding: 16px 58px;
 transform: scale(1);
 transition: 0.5s;
 }

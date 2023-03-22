@@ -2,7 +2,7 @@
     text-align: center;
 }
 .cyber-service__container{
-    max-width: 1358px;
+    max-width: 1258px;
     padding: 12px;
     display: flex;
     margin: 0 auto 215px;
@@ -31,8 +31,8 @@
 .cyber-info__title {
     font-family: var(--montserrat);
 font-weight: 700;
-font-size: 40px;
-line-height: 49px;
+font-size: 30px;
+line-height: 40px;
 letter-spacing: -0.015em;
 color: var(--white);
 margin-bottom: 40px;
@@ -40,8 +40,8 @@ margin-bottom: 40px;
 .cyber-info__description {
     font-family: var(--montserrat);
 font-weight: 400;
-font-size: 24px;
-line-height: 29px;
+font-size: 18px;
+line-height: 22px;
 letter-spacing: -0.015em;
 color: var(--white);
 margin-bottom: 70px;

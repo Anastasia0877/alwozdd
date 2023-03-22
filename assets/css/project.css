@@ -11,7 +11,7 @@
     content: '';
     display: block;
     width: 5px;
-    height: 950px;
+    height: 650px;
     background-color: var(--yellow);
     position: absolute;
     left: 50%;
@@ -22,12 +22,12 @@
     font-family: var(--montserrat);
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
-    line-height: 43px;
+    font-size: 22px;
+    line-height: 33px;
     letter-spacing: -0.015em;
     color: var(--white);
     max-width: 420px;
-    margin-bottom: 190px;
+    margin-bottom: 100px;
     position: relative;
 }
 .step::after {
