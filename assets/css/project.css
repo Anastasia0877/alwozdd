@@ -4,14 +4,14 @@
 .conditions__steps {
     margin: 0 auto;
     max-width: 980px;
-    padding: 80px 0 65px;
+    padding: 80px 0 35px;
     position: relative;
 }
 .conditions__steps::after {
     content: '';
     display: block;
     width: 5px;
-    height: 650px;
+    height: 550px;
     background-color: var(--yellow);
     position: absolute;
     left: 50%;
@@ -27,8 +27,9 @@
     letter-spacing: -0.015em;
     color: var(--white);
     max-width: 420px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     position: relative;
+    text-align: right;
 }
 .step::after {
     content: '';
@@ -45,6 +46,7 @@
 .step:nth-child(2n) {
     margin-left: auto;
     margin-right: 0;
+    text-align: left;
 }
 .step:nth-child(2n)::after {
     content: '';

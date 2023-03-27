@@ -14,8 +14,8 @@
     font-family: var(--montserrat);
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 16px;
+    line-height: 18px;
     letter-spacing: -0.015em;
     color: var(--black);
 }
@@ -25,8 +25,8 @@
 .accordion__item .accordion__title {
     font-family: var(--montserrat);
     font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 22px;
     letter-spacing: 0.02em;
     margin-bottom: 30px;
     color: var(--black);
@@ -57,8 +57,8 @@
     font-family: var(--montserrat);
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 20px;
     letter-spacing: 0.02em;
     color: var(--grey);
     display: none;

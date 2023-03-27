@@ -45,8 +45,8 @@ section {
 .container__title {
     font-family: var(--russo-one);
     font-weight: 400;
-    font-size: 54px;
-    line-height: 77px;
+    font-size: 40px;
+    line-height: 44px;
     letter-spacing: -0.015em;
     color: var(--white);
     margin-bottom: 40px;
@@ -55,7 +55,7 @@ section {
     font-family: var(--montserrat);
     font-weight: 400;
     font-size: 22px;
-    line-height: 34px;
+    line-height: 24px;
     letter-spacing: -0.015em;
     color: var(--white);
 }
@@ -148,11 +148,11 @@ section {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
-    margin-bottom: 55px;
+    margin-bottom: 35px;
 }
 .card__icon {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin-bottom: 35px;
 }
 .card__icon img {
@@ -163,15 +163,15 @@ section {
     font-family: var(--montserrat);
     font-weight: 400;
     font-size: 18px;
-    line-height: 29px;
+    line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--white);
     margin-bottom: 10px;
-    min-height: 135px;
+    min-height: 115px;
 }
 .yellow__btn {
     font-size: 18px;
-    line-height: 27px;
+    line-height: 24px;
     padding: 18px 54px;
 }
 
@@ -243,7 +243,7 @@ section {
     transform: scale(0.8);
     transition: 0.8s;
     background-color: var(--white);
-    padding: 78px 45px 104px;
+    padding: 78px 45px 84px;
     max-width: 570px;
     width: 100%;
     border-radius: 55px;
@@ -255,8 +255,8 @@ section {
 .case__title {
     font-family: var(--russo-one);
     font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 34px;
+    line-height: 40px;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
@@ -285,8 +285,8 @@ section {
 .case-description__list {
     font-family: var(--montserrat);
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 22px;
+    line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--white);
     margin-bottom: 40px;
@@ -298,8 +298,8 @@ section {
 .case-description-list__item {
     font-family: var(--montserrat);
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 22px;
+    line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--white);
     position: relative;
@@ -307,7 +307,7 @@ section {
     /* width: 360px; */
 }
 .case.slick-center .case-description-list__item {
-    font-size: 28px;
+    font-size: 22px;
     color: var(--black);
     /* width: 481px; */
 }
