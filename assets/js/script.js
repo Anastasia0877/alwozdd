@@ -97,6 +97,7 @@ $('.menu-item').on('click', function(){
       window.scrollTo(0, $("#" . window.location.hash).offset().top);
     }
   });
+ 
 
   // new-slider
     $(document).ready(function(){
@@ -187,6 +188,52 @@ $('.menu-item').on('click', function(){
 	// Отрытие вкладки из хеша URL
 	if(window.location.hash){
 		$('#account__tabs-nav a[href=' + window.location.hash + ']').click();
+		window.scrollTo(0, $("#" . window.location.hash).offset().top);
+	}
+});
+ // forums-tabs
+ $(function() {
+	var tab = $('#page-forums-tabs .page-forums__tabs-items > div'); 
+	tab.hide().filter(':first').show(); 
+  $('#page-forums-tabs .page-forums__tabs-nav a').click(function(){
+		tab.hide(); 
+		tab.filter(this.hash).show(); 
+		$('#page-forums-tabs .page-forums__tabs-nav a').removeClass('active');
+		$(this).addClass('active');
+		return false;
+	}).filter(':first').click();
+ 
+	// Клики по якорным ссылкам.
+	$('.tabs-target').click(function(){
+		$('#page-forums-tabs .page-forums__tabs-nav a[href=' + $(this).attr('href')+ ']').click();
+	});
+	
+	// Отрытие вкладки из хеша URL
+	if(window.location.hash){
+		$('#page-forums__tabs-nav a[href=' + window.location.hash + ']').click();
+		window.scrollTo(0, $("#" . window.location.hash).offset().top);
+	}
+});
+ // chats-tabs
+ $(function() {
+	var tab = $('#chats-tabs .chats__tabs-items > div'); 
+	tab.hide().filter(':first').show(); 
+  $('#chats-tabs .chats__tabs-nav a').click(function(){
+		tab.hide(); 
+		tab.filter(this.hash).show(); 
+		$('#chats-tabs .chats__tabs-nav a').removeClass('active');
+		$(this).addClass('active');
+		return false;
+	}).filter(':first').click();
+ 
+	// Клики по якорным ссылкам.
+	$('.tabs-target').click(function(){
+		$('#chats-tabs .chats__tabs-nav a[href=' + $(this).attr('href')+ ']').click();
+	});
+	
+	// Отрытие вкладки из хеша URL
+	if(window.location.hash){
+		$('#chats__tabs-nav a[href=' + window.location.hash + ']').click();
 		window.scrollTo(0, $("#" . window.location.hash).offset().top);
 	}
 });

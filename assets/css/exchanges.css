@@ -1,0 +1,7 @@
+.page-crypto__title{
+    color: var(--black);
+    text-align: center;
+}
+.page-crypto__row{
+    box-shadow: 0 0 3px 0.5px #00000050;
+}
